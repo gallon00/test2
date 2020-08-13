@@ -8,5 +8,6 @@ import lombok.Data;
 @Data
 public class Student {
     private String id;
-    private String sname;
+    private String sname = "jack";
+    private String age;
 }
