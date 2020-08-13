@@ -7,7 +7,9 @@ import lombok.Data;
  */
 @Data
 public class Student {
+    private String gender;
     private String id;
-    private String sname = "jack";
+    private String sname = "rose";
     private String age;
+    private String desc;
 }

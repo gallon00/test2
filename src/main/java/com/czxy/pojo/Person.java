@@ -17,4 +17,6 @@ public class Person {
     private  Integer age;
 
     private String descrition;
+
+    private String classes;
 }
